@@ -39,8 +39,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/GOOGLE_MUSIC_UPDATE")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/GOOGLE_MUSIC_SUPPORT")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/DTM_NETWORK")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/DTM_SUPPORT_GROUP")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -78,13 +78,13 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://envs.sh/rIV.jpg"
+    "START_IMG_URL", "https://graph.org/file/54dc01f1a554496626d1b-ddcb920aff3fab0ddb.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://envs.sh/rIV.jpg"
+    "PING_IMG_URL", "https://graph.org/file/54dc01f1a554496626d1b-ddcb920aff3fab0ddb.jpg"
 )
-PLAYLIST_IMG_URL = "https://envs.sh/rIV.jpg"
-STATS_IMG_URL = "https://envs.sh/rIV.jpg"
+PLAYLIST_IMG_URL = "https://graph.org/file/54dc01f1a554496626d1b-ddcb920aff3fab0ddb.jpg"
+STATS_IMG_URL = "https://graph.org/file/54dc01f1a554496626d1b-ddcb920aff3fab0ddb.jpg"
 TELEGRAM_AUDIO_URL = "https://envs.sh/rIV.jpg"
 TELEGRAM_VIDEO_URL = "https://envs.sh/rIV.jpg"
 STREAM_IMG_URL = "https://envs.sh/rIV.jpg"
