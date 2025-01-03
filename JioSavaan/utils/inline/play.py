@@ -45,7 +45,7 @@ def stream_markup_timer(_, chat_id, played, dur):
     elif 50 <= anon < 60:
         ba = "▰▰▰▰▰▰▱▱▱▱"
     elif 60 <= anon < 70:
-        ba = "▰▰▰▰▰▰▰▱▱▱""
+        ba = "▰▰▰▰▰▰▰▱▱▱"
     elif 70 <= anon < 80:
         ba = "▰▰▰▰▰▰▰▰▱▱"
     elif 80 <= anon < 95:
