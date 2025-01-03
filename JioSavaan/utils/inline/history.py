@@ -5,9 +5,9 @@ from pyrogram import Client, filters
 from pyrogram.raw.functions.messages import DeleteHistory
 from pyrogram.types import Message
 
-from AnonXMusic import app
-from AnonXMusic.core.userbot import assistants
-from AnonXMusic.utils.database import get_client
+from JioSavaan import app
+from JioSavaan.core.userbot import assistants
+from JioSavaan.utils.database import get_client
 
 
 @app.on_message(filters.command(["sg", "History"]))
