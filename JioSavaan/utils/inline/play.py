@@ -33,25 +33,25 @@ def stream_markup_timer(_, chat_id, played, dur):
     percentage = (played_sec / duration_sec) * 100
     anon = math.floor(percentage)
     if 0 < anon <= 10:
-        ba = "⚪─────────"
+        ba = "▰▱▱▱▱▱▱▱▱▱"
     elif 10 < anon < 20:
-        ba = "━⚪────────"
+        ba = "▰▰▱▱▱▱▱▱▱▱"
     elif 20 <= anon < 30:
-        ba = "━━⚪───────"
+        ba = "▰▰▰▱▱▱▱▱▱▱"
     elif 30 <= anon < 40:
-        ba = "━━━⚪──────"
+        ba = "▰▰▰▰▱▱▱▱▱▱"
     elif 40 <= anon < 50:
-        ba = "━━━━⚪─────"
+        ba = "▰▰▰▰▰▱▱▱▱▱"
     elif 50 <= anon < 60:
-        ba = "━━━━━⚪────"
+        ba = "▰▰▰▰▰▰▱▱▱▱"
     elif 60 <= anon < 70:
-        ba = "━━━━━━⚪───"
+        ba = "▰▰▰▰▰▰▰▱▱▱"
     elif 70 <= anon < 80:
-        ba = "━━━━━━━⚪──"
+        ba = "▰▰▰▰▰▰▰▰▱▱"
     elif 80 <= anon < 95:
-        ba = "━━━━━━━━⚪─"
+        ba = "▰▰▰▰▰▰▰▰▰▱"
     else:
-        ba = "━━━━━━━━━⚪"
+        ba = "▰▰▰▰▰▰▰▰▰▰"
 
 ##bar of wynk---------------------------------------
     
